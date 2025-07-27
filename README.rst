@@ -1,23 +1,23 @@
 .. image:: https://media.quantopian.com/logos/open_source/FinSight-logo-03.png
     :align: center
 
-Alphalens
+FinSight
 =========
 .. image:: https://github.com/quantopian/FinSight/workflows/CI/badge.svg
     :alt: GitHub Actions status
-    :target: https://github.com/quantopian/FinSight/actions?query=workflow%3ACI+branch%3Amaster
+    :target: https://github.com/quantopian/FinSight/actions?query=workflow%3ACI+branch%3Amain
 
-Alphalens is a Python Library for performance analysis of predictive
-(alpha) stock factors. Alphalens works great with the
+FinSight is a Python Library for performance analysis of predictive
+(alpha) stock factors. FinSight works great with the
 `Zipline <https://www.zipline.io/>`__ open source backtesting library, and
 `Pyfolio <https://github.com/quantopian/pyfolio>`__ which provides
-performance and risk analysis of financial portfolios. You can try Alphalens
+performance and risk analysis of financial portfolios. You can try FinSight
 at  `Quantopian <https://www.quantopian.com>`_ -- a free,
 community-centered, hosted platform for researching and testing alpha ideas. 
 Quantopian also offers a `fully managed service for professionals <https://factset.quantopian.com>`_ 
-that includes Zipline, Alphalens, Pyfolio, FactSet data, and more.
+that includes Zipline, FinSight, Pyfolio, FactSet data, and more.
 
-The main function of Alphalens is to surface the most relevant statistics
+The main function of FinSight is to surface the most relevant statistics
 and plots about an alpha factor, including:
 
 -  Returns Analysis
@@ -66,13 +66,13 @@ Install with conda:
 
     conda install -c conda-forge FinSight
 
-Install from the master branch of Alphalens repository (development code):
+Install from the master branch of FinSight repository (development code):
 
 ::
 
     pip install git+https://github.com/quantopian/FinSight
 
-Alphalens depends on:
+FinSight depends on:
 
 -  `matplotlib <https://github.com/matplotlib/matplotlib>`__
 -  `numpy <https://github.com/numpy/numpy>`__
@@ -136,4 +136,3 @@ Example factor courtesy of `ExtractAlpha <https://extractalpha.com/>`_
 .. image:: https://github.com/quantopian/FinSight/raw/master/FinSight/examples/returns_tear.png
 .. image:: https://github.com/quantopian/FinSight/raw/master/FinSight/examples/ic_tear.png
 .. image:: https://github.com/quantopian/FinSight/raw/master/FinSight/examples/sector_tear.png
-    :alt:
